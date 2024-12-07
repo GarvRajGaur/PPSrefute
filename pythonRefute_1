@@ -1,0 +1,5 @@
+import random
+
+while input("Roll the dice? (yes/no): ").strip().lower() == "yes":
+    print(f"You rolled a {random.randint(1, 6)}!")
+print("Goodbye!")
